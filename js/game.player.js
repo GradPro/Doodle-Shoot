@@ -16,8 +16,8 @@
 					this._y = y;
 				}
 				else{
-					this._x = coord.x;
-					this._y = coord.y;
+					this._x = coord_or_x.x;
+					this._y = coord_or_x.y;
 				}
 				return this;
 			}
