@@ -24,6 +24,12 @@
   <script src="./js/keyboard.js"></script>
   <script src="./cfg.js"></script>
   <script src="./main.js"></script>
+  <script>
+  	var socket = io.connect("/event");
+  	socket.on('keyEvent', function (e) {
+  		$('body').append(e.key);
+  	});
+  </script>
 </head>
 <body></body>
 </html>
