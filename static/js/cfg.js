@@ -4,11 +4,11 @@ var cfg = {};
 cfg.stage = {
     width: 2500,
     height: 2500,
-    bg: './img/bg.png'
+    bg: "http://www.capturecadet.com/workspace/images/bg.png"
 };
 
 cfg.player = {
     width: 128,
     height: 128,
-    img: './img/ship.png'
+    img: "http://icons.iconseeker.com/png/128/transport/sailing-ship.png"
 };
